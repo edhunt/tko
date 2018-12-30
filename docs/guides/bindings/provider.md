@@ -9,7 +9,7 @@ The `Provider` is a class that is responsible for linking nodes to binding handl
 | `VirtualProvider`  | `<!-- ko text: x --><!-- /ko -->`
 | `ComponentProvider` | `<custom-hello></custom-hello>`
 | `AttributeProvider` | `<span ko-title='x'></span>`
-| `TextMustacheProvider` | `{{ x_text }}` <br> `{{{ x_html }}}` <br> `{{# text: thing /}}`
+| `TextMustacheProvider` | {% raw %}`{{ x_text }}` <br> `{{{ x_html }}}` <br> `{{# text: thing /}}` {% endraw %}
 | `AttributeMustacheProvider` | `<span title='The {{ x }} title'></span>`
 | `MultiProvider` | Combines more than one provider together.
 
